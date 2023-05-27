@@ -26,7 +26,7 @@ const navLinks = [
 
 export default function HeaderLayout() {
   return (
-    <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "teal" }}>
+    <Navbar collapseOnSelect expand="lg" style={{ backgroundColor: "purple" }}>
       <Container>
         <Navbar>
           <Container>

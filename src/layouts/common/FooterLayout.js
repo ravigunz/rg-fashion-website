@@ -7,7 +7,7 @@ export default function FooterLayout() {
     <Box
       sx={{ p: 1 }}
       style={{
-        backgroundColor: "teal",
+        backgroundColor: "purple",
         display: "flex",
         justifyContent: "space-between",
         width: "100%",
@@ -32,7 +32,7 @@ export default function FooterLayout() {
         variant="contained"
         sx={{
           bgcolor: "white",
-          color: "teal",
+          color: "purple",
           borderRadius: "20px",
           fontSize: "10px",
           fontWeight: "bold",
