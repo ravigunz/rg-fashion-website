@@ -5,7 +5,7 @@ import ProductPrice from './singleProduct/ProductPrice'
 import ProductSize from './singleProduct/ProductSize'
 import { Box } from '@mui/material'
 
-export default function SingleProduct({name, type, price, images}) {
+export default function SingleProduct({name, type, price, images, availableSizes}) {
   return (
     <Box sx={{ p: 3}}>
     <ProductImage images={images}/>
@@ -13,7 +13,7 @@ export default function SingleProduct({name, type, price, images}) {
     <ProductName name={name} type={type}/>
     </Box>
     <ProductPrice value={price}/>
-    <ProductSize />
+    <ProductSize availableSizes={availableSizes} />
     </Box>
   )
 }
