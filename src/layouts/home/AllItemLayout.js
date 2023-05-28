@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import HeaderLayout from "../common/HeaderLayout";
-import FooterLayout from "../common/FooterLayout";
 import { Grid, Typography, Box } from "@mui/material";
 import ProductFilters from "../allItem/ProductFilters";
 import ProductList from "../allItem/ProductList";
 import axios from "axios";
+import CommonWrapperLayout from "../common/CommonWrapperLayout";
 
 export default function AllItemLayout() {
   const [loadingStatus, setLoadingStatus] = useState("notStarted");
@@ -26,7 +25,7 @@ export default function AllItemLayout() {
 
   return (
     <div>
-      <HeaderLayout />
+    <CommonWrapperLayout>
       <Grid container>
         <Grid item xs={2}>
           <div style={{ backgroundColor: "yellow" }}>
@@ -54,7 +53,7 @@ export default function AllItemLayout() {
           </div>
         </Grid>
       </Grid>
-      <FooterLayout />
+      </CommonWrapperLayout>
     </div>
   );
 }

@@ -1,5 +1,5 @@
-import { Grid } from "@mui/material";
 import React, { useEffect, useState } from "react";
+import { Grid } from "@mui/material";
 import SingleSizeBox from "./productSize/SingleSizeBox";
 
 const defaultSizes = ["xs", "s", "m", "l", "xl"];

@@ -1,5 +1,5 @@
-import { Grid } from "@mui/material";
 import React from "react";
+import { Grid } from "@mui/material";
 import SingleProduct from "../../components/productList/SingleProduct";
 
 export default function ProductList({ products, name, type, price, images }) {

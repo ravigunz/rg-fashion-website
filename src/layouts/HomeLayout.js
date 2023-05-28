@@ -1,20 +1,17 @@
-import React from 'react'
-import HeaderLayout from './common/HeaderLayout'
-import FooterLayout from './common/FooterLayout'
-import { Typography } from '@mui/material'
-import ButtonListLayout from './home/ButtonListLayout'
-import CarouselLayout from './home/CarouselLayout'
+import React from "react";
+import { Typography } from "@mui/material";
+import ButtonListLayout from "./home/ButtonListLayout";
+import CarouselLayout from "./home/CarouselLayout";
+import CommonWrapperLayout from "./common/CommonWrapperLayout";
 
 export default function HomeLayout() {
   return (
     <div>
-        <HeaderLayout />
+      <CommonWrapperLayout>
         <CarouselLayout />
-        <Typography variant='h6'>Sri Lanka's Largest Fashion Store</Typography>
+        <Typography variant="h6">Sri Lanka's Largest Fashion Store</Typography>
         <ButtonListLayout />
-        <br /> 
-        <br /> 
-        <FooterLayout />
+      </CommonWrapperLayout>
     </div>
-  )
+  );
 }

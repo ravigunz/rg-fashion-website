@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HomeLayout from './layouts/HomeLayout';
+// import HomeLayout from './layouts/HomeLayout';
 import './App.css';
 import AllItemLayout from './layouts/home/AllItemLayout';
 
