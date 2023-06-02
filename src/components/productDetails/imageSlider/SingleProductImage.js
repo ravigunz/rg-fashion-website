@@ -4,7 +4,8 @@ import ReactImageMagnify from "react-image-magnify";
 export default function SingleProductImage({watchImg300, watchImg1200}) {
   return (
     <ReactImageMagnify
-    enlargedImageContainerStyle={{}}
+    imageStyle={{ borderRadius: '20px 0 0 20px' }}
+    enlargedImageContainerStyle={{ borderRadius: '20px 0 0 20px' }}
     enlargedImagePosition="over"
       {...{
         smallImage: {

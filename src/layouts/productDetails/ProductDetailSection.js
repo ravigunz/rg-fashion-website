@@ -23,7 +23,7 @@ export default function ProductDetailSection({productName, productType, price, s
         <Typography>This is the sample product description.</Typography>
         <p>Product Size Select</p>
         <hr />
-        <QtyAndPriceSection />
+        <QtyAndPriceSection price={price} />
         <p>Add to Cart Button</p>
         <hr />
         <p>
