@@ -13,6 +13,8 @@ const productData = {
   productType: "Dress",
   price: 7700,
   size: ["xs", "s"],
+  description: 'Sample product description',
+  availableQty: 100,
 };
 
 export default function ProductDetailsLayout() {
@@ -38,6 +40,8 @@ export default function ProductDetailsLayout() {
               productType={productData.productType}
               price={productData.price}
               size={productData.size}
+              description={productData.description}
+              availableQty={productData.availableQty}
             />
           </Grid>
         </Grid>

@@ -13,6 +13,8 @@ export default function ProductDetailSection({
   productType,
   price,
   size,
+  description,
+  availableQty,
 }) {
   return (
     <Grid container>
@@ -21,13 +23,13 @@ export default function ProductDetailSection({
           <ProductNameInDetail value={`${productName} ${productType}`} />
         </Grid>
         <Grid itme>
-          <StockStatusChip />
+          <StockStatusChip qty={availableQty}/>
         </Grid>
       </Grid>
       <Grid item xs={12}>
         <RatingComponent />
         <PriceComponent value={price} />
-        <Typography>This is the sample product description.</Typography>
+        <Typography>{description}</Typography>
         <Box sx={{ pt: 2 }}>
           <ProductSizeSelect sizes={size} />
         </Box>
@@ -39,10 +41,10 @@ export default function ProductDetailSection({
           </Grid>
         </Grid>
         <hr />
-        <p>
+        <Typography>
           Note: Product colur may slightly vary due to photographic lighting
           sources or your monitor settings.
-        </p>
+        </Typography>
       </Grid>
       <Grid item xs={12}></Grid>
     </Grid>
