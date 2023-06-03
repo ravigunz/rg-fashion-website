@@ -1,8 +1,8 @@
 import React from "react";
-import CommonWrapperLayout from "./common/CommonWrapperLayout";
+import CommonWrapperLayout from "../common/CommonWrapperLayout";
 import { Box, Grid } from "@mui/material";
-import ImageSlider from "../components/productDetails/ImageSlider";
-import ProductDetailSection from "./productDetails/ProductDetailSection";
+import ImageSlider from "../../components/productDetails/ImageSlider";
+import ProductDetailSection from './innerLayouts/ProductDetailSection';
 
 const productData = {
   images: [
@@ -13,7 +13,7 @@ const productData = {
   productType: "Dress",
   price: 7700,
   size: ["xs", "s"],
-  description: 'Sample product description',
+  description: "Sample product description",
   availableQty: 100,
 };
 

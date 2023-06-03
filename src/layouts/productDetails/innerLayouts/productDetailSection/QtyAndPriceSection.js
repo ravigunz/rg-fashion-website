@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Grid, Typography } from "@mui/material";
 import QtySelectSection from "./qtyAndPriceSection/QtySelectSection";
-import { priceValueFormat } from "../../../util/functions";
+import { priceValueFormat } from "../../../../util/functions";
 
 export default function QtyAndPriceSection({ price }) {
   const [qty, setQty] = useState(1);

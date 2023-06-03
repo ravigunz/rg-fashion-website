@@ -1,9 +1,9 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
-import RatingComponent from "../../components/productDetails/RatingComponent";
-import StockStatusChip from "../../components/productDetails/StockStatusChip";
-import PriceComponent from "../../components/productDetails/PriceComponent";
-import ProductNameInDetail from "../../components/productDetails/ProductNameInDetail";
+import RatingComponent from "../../../components/productDetails/RatingComponent";
+import StockStatusChip from "../../../components/productDetails/StockStatusChip";
+import PriceComponent from "../../../components/productDetails/PriceComponent";
+import ProductNameInDetail from "../../../components/productDetails/ProductNameInDetail"
 import QtyAndPriceSection from "./productDetailSection/QtyAndPriceSection";
 import ProductSizeSelect from "./productDetailSection/ProductSizeSelect";
 import AddToCartButtonSection from "./productDetailSection/AddToCartButtonSection";

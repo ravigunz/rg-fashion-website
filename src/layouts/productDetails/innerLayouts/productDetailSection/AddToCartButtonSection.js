@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@mui/material";
 import { ShoppingCart as CartIcon } from "@mui/icons-material";
-import SnackbarMessage from "../../../components/common/SnackbarMessage";
+import SnackbarMessage from "../../../../components/common/SnackbarMessage";
 
 export default function AddToCartButtonSection() {
   return (
@@ -9,7 +9,7 @@ export default function AddToCartButtonSection() {
       <Button
         variant="contained"
         sx={{
-          bgcolor: "teal",
+          bgcolor: "purple",
           borderRadius: "20px",
           padding: "8px 70px",
           "&:hover": { bgcolor: "black" },

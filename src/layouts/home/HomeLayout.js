@@ -1,13 +1,13 @@
 import React from "react";
 import { Typography } from "@mui/material";
-import ButtonListLayout from "./home/ButtonListLayout";
-import CarouselLayout from "./home/CarouselLayout";
-import CommonWrapperLayout from "./common/CommonWrapperLayout";
+import ButtonListLayout from "./innerLayouts/ButtonListLayout";
+import CarouselLayout from "./innerLayouts/CarouselLayout";
+import CommonWrapperLayout from "../common/CommonWrapperLayout";
 
 export default function HomeLayout() {
   return (
     <div>
-      <CommonWrapperLayout>
+      <CommonWrapperLayout isFromHome>
         <CarouselLayout />
         <Typography variant="h6">Sri Lanka's Largest Fashion Store</Typography>
         <ButtonListLayout />

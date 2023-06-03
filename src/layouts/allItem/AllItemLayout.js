@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Grid, Typography, Box } from "@mui/material";
-import ProductFilters from "../allItem/ProductFilters";
-import ProductList from "../allItem/ProductList";
+import ProductFilters from "./innerLayouts/ProductFilters";
+import ProductList from "./innerLayouts/ProductList";
 import axios from "axios";
 import CommonWrapperLayout from "../common/CommonWrapperLayout";
 
