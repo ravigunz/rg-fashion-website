@@ -33,7 +33,7 @@ export default function ProductDetailSection({
         </Box>
         <hr />
         <QtyAndPriceSection price={price} />
-        <Grid container justifyContent={"end"}>
+        <Grid container justifyContent={"end"} sx={{ pt: 2 }}>
           <Grid item>
             <AddToCartButtonSection />
           </Grid>
