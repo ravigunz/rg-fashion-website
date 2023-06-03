@@ -27,12 +27,12 @@ export default function AllItemLayout() {
     <div>
     <CommonWrapperLayout>
       <Grid container>
-        <Grid item xs={2}>
+        <Grid item xs={12} md={2}>
           <div style={{ backgroundColor: "yellow" }}>
             <ProductFilters />
           </div>
         </Grid>
-        <Grid item xs={10}>
+        <Grid item xs={12} md={10}>
           <div>
             {loadingStatus === "loading" ? (
               <Typography>Loading...</Typography>
